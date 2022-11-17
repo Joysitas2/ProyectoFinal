@@ -1,0 +1,31 @@
+body .mainBeneficios {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorFondo;
+}
+.contBeneficios{
+    background: url(../assets/img/nosotros.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: $colorFondo;
+    overflow: hidden;
+    padding: 60px 0;
+    .descBeneficios{
+        width: 55%;
+        float: right;
+        background-color: $colorFondo2;
+        padding: 100px;
+        box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+        h5 {
+            font-size: 18px;
+            color: $colorPrimario;
+        }
+        p {
+            font-size: 14px;
+            color: $colorPrimario;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+    }
+}
