@@ -784,7 +784,7 @@ body .mainBeneficios {
     display: block;
   }
   nav ul {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100vh;
     background: #2c3e50;
@@ -793,6 +793,7 @@ body .mainBeneficios {
     text-align: center;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    z-index: 1;
   }
   nav ul li {
     display: block;
